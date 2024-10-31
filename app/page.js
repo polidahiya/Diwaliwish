@@ -6,9 +6,18 @@ export default function Home() {
   return (
     <>
       <Script src="/script.js"></Script>
-      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/fscreen%401.0.1.js"></script>
-      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/Stage%400.1.4.js"></script>
-      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/MyMath.js"></script>
+      <script
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/fscreen%401.0.1.js"
+        async
+      ></script>
+      <script
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/Stage%400.1.4.js"
+        async
+      ></script>
+      <script
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/MyMath.js"
+        async
+      ></script>
       <div
         style={{
           height: 0,
