@@ -151,7 +151,7 @@ export default function Home() {
       </div>
       <img
         className="fixed w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-contain p-10 max-w-[500px]"
-        src="/—Pngtree—happy diwali indian festival_8622825.png"
+        src="/diwali.png"
       ></img>
       <Link
         href="https://adorefurnix.com"
