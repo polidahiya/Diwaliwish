@@ -86,8 +86,8 @@ export default function Home() {
               <div className="menu__subheader">
                 For more info, click any label.
               </div>
-              <form>
-                <div className="form-option form-option--select">
+              <form className="relative z-20 bg-black">
+                <div className="form-option form-option--select ">
                   <label className="shell-type-label">Shell Type</label>
                   <select className="shell-type" />
                 </div>
@@ -129,11 +129,7 @@ export default function Home() {
                 </div>
               </form>
               <div className="credits">
-                Passionately built by{" "}
-                <a href="https://cmiller.tech/" target="_blank">
-                  Caleb Miller
-                </a>
-                .
+               
               </div>
             </div>
           </div>
