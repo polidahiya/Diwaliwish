@@ -5,7 +5,7 @@ import { SlGlobe } from "react-icons/sl";
 export default function Home() {
   return (
     <>
-      <Script src="/script.js"></Script>
+      <Script src="/script.js" async></Script>
       <script
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/fscreen%401.0.1.js"
         async
