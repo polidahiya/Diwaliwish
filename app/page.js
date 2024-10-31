@@ -50,8 +50,8 @@ export default function Home() {
       {/* App */}
       <div className="container">
         <div className="loading-init">
-          <div className="loading-init__header">Loading</div>
-          <div className="loading-init__status">Assembling Shells</div>
+          <div className="loading-init__header"></div>
+          <div className="loading-init__status"></div>
         </div>
         <div className="stage-container remove">
           <div className="canvas-container">
