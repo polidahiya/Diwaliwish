@@ -1,6 +1,7 @@
 import Script from "next/script";
 import Link from "next/link";
 import { SlGlobe } from "react-icons/sl";
+import { TiArrowForward } from "react-icons/ti";
 
 export default function Home() {
   return (
@@ -75,7 +76,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="menu hide">
+          <div className="menu hide z-20 bg-black bg-opacity-35 backdrop-blur">
             <div className="menu__inner-wrap">
               <div className="btn btn--bright close-menu-btn">
                 <svg fill="white" width={24} height={24}>
@@ -86,7 +87,7 @@ export default function Home() {
               <div className="menu__subheader">
                 For more info, click any label.
               </div>
-              <form className="relative z-20 bg-black">
+              <form className="">
                 <div className="form-option form-option--select ">
                   <label className="shell-type-label">Shell Type</label>
                   <select className="shell-type" />
@@ -128,13 +129,11 @@ export default function Home() {
                   <input className="long-exposure" type="checkbox" />
                 </div>
               </form>
-              <div className="credits">
-               
-              </div>
+              <div className="credits"></div>
             </div>
           </div>
         </div>
-        <div className="help-modal">
+        <div className="help-modal z-30">
           <div className="help-modal__overlay" />
           <div className="help-modal__dialog">
             <div className="help-modal__header" />
@@ -155,6 +154,7 @@ export default function Home() {
       >
         <SlGlobe />
         www.adorefunrnix.com
+        <TiArrowForward />
       </Link>
     </>
   );
